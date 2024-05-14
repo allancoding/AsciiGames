@@ -1,10 +1,10 @@
-# Asscii Games
+# Ascii Games
 ![Ascii Games](assets/title.png)
 ## Description
 This is a game manager for all of your java ascii games. It is super easy to add games to the manager.
 
 ## Inspiration
-I wanted a way to easily have asscii games all in one place.
+I wanted a way to easily have ascii games all in one place.
 
 ## Current Games
 - Battleship - The classic game of Battleship. [@allancoding](https://github.com/allancoding)
@@ -57,7 +57,7 @@ java -jar asciiGames.jar
 - [Janis](https://github.com/fusesource/jansi) 2.4.1 or higher is required.
 
 ## Docs for the `ascii` class
-The asscii class is used as a helper class for asscii. It has a few methods that can be used to help with the game.
+The ascii class is used as a helper class for ascii. It has a few methods that can be used to help with the game.
 
 ### Methods:
 | Method | Description | Parameters | Returns |
