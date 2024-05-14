@@ -34,7 +34,7 @@ public class RockPaperScissors {
             ascii.println("0) Rock");
             ascii.println("1) Paper");
             ascii.println("2) Scissors");
-            System.out.print("Enter a number for you the play: ");
+            System.out.print("Enter a number for you play: ");
             Integer guess = Integer.parseInt(System.console().readLine());
             int random = (int) (Math.random() * 3 + 1);
             random = random - 1;

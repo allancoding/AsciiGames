@@ -3,7 +3,7 @@ package asciiGames.games;
 import org.fusesource.jansi.AnsiConsole;
 import asciiGames.ascii;
 
-public class TickTackToe {
+public class TicTacToe {
     
     public static void main(String[] args) {
         AnsiConsole.systemInstall();
@@ -11,8 +11,8 @@ public class TickTackToe {
     }
 
     public static class Game {
-        public static final String Name = "Tick Tack Toe";
-        public static final String Description = "A simple version of Tick Tack Toe.";
+        public static final String Name = "Tic Tac Toe";
+        public static final String Description = "A simple version of Tic Tac Toe.";
         public static boolean shutdownHookAdded = false;
 
         public static void start(boolean instructions, boolean main) {
@@ -22,7 +22,7 @@ public class TickTackToe {
                     public void run() {
                         try {
                             Thread.sleep(200);
-                            ascii.println("Exiting Tick Tack Toe...");
+                            ascii.println("Exiting Tic Tac Toe...");
                         } catch (InterruptedException e) {
                             e.printStackTrace();
                         }
